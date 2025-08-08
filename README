@@ -1,0 +1,33 @@
+# Sales Forecast ARIMA
+
+This repository contains a time series sales forecasting example using the ARIMA model in Python.  
+The dataset is synthetically generated with trend and seasonality components to simulate daily product sales.
+
+## Project Overview
+
+- Simulates daily sales data for multiple products with trend, weekly and yearly seasonality, and noise.
+- Uses the ARIMA(2,2,2) model to train on historical sales data and forecast future sales.
+- Splits data into training and testing sets to evaluate model performance.
+- Visualizes real sales vs model predictions.
+- Calculates performance metrics like RMSE and MAE.
+
+## Usage
+
+1. Open the Jupyter notebook (`sales_forecast_arima.ipynb`) in Google Colab or locally.
+2. Run the cells sequentially to generate data, train the ARIMA model, predict, visualize, and evaluate.
+3. Modify the parameters or product selection to experiment with different setups.
+
+## Dependencies
+
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- statsmodels  
+- scikit-learn
+
+You can install missing packages via:
+
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
+
